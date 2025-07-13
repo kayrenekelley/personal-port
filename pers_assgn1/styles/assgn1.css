@@ -5,3 +5,66 @@ body {
     color: #001a1a;
 }
 
+/*nav*/
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {text-align: center;
+    color: #001a1a;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+nav a:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: antiquewhite;
+}
+.hero_pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.hero_msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    z-index: 2;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-family: 'ink free';
+    font-weight: 400;
+   
+}
+.home_title {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 30px;
+     /*font-family: 'ink free';*/
+     color: antiquewhite;
+    font-weight: 500;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 50px;
+    height: auto;
+}
+.button-box {
+    text-align: center; font-family: 'ink free';
+    font-weight: 500;
+}
+
+
